@@ -1,0 +1,204 @@
+
+main {
+        background: #1f1f1f;
+}
+
+
+.header-container {
+  display: flex;
+  margin-top: 13px;
+}
+
+.header-logo {
+  width: 56px;
+  height: 43px;
+}
+
+.header-list {
+  display: flex;
+  gap: 67px;
+}
+.header-link {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000;
+}
+.header-link:hover {
+  color: rgb(35, 44, 44);
+}
+
+.header-links {
+  margin-left: 115px;
+  margin-top: 11px;
+}
+.header-button-text {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #fff;
+}
+.header-button {
+  border-radius: 20px;
+  width: 186px;
+  height: 26px;
+  background: #000;
+}
+.header-sing-in {
+  margin-top: 11px;
+  margin-left: auto;
+}
+
+/* top */
+.top {
+  background: url(./img/teste\ 1.png);
+
+  padding-top: 482px;
+  padding-bottom: 91px;
+  background-repeat: no-repeat;
+  background-position: bottom, top, left, right;
+  text-align: left;
+  background-size: 100% 600px;
+  
+}
+
+
+.top-list {
+  display: flex;
+}
+
+.top-img {
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+
+}
+.top-name {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  color: #fff;
+  text-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.top-price {
+  text-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  color: #fff;
+  margin-left: 7px;
+}
+.top-element2 {
+    margin-top: 19px;
+      margin-left: 9px;
+}
+.top-element3 {
+        margin-top: 19px;
+        
+}
+
+/* for_you */
+.for_you {
+    background: #1f1f1f;
+    margin-top: 98px;
+  
+}
+
+.for_you-title {
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 30px;
+line-height: 100%;
+color: #fff;
+margin-bottom: 46px;
+    margin-left: 240px;
+
+}
+
+.for_you-list {
+    display: flex;
+        gap: 85px;
+    margin-left: 240px;
+    
+
+}
+
+
+.card {
+    background: #1f1f1f;
+}
+
+.card-title {
+    color: #fff;
+}
+.card-text {
+    color: #fff;
+}
+
+/* playstation-plus */
+.playstation-plus-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+  footer {
+      background-color: #202020;
+      padding: 50px 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+
+    .footer-top {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 10px;
+    }
+
+    .footer-top img {
+      width: 60px;
+    }
+
+    .footer-top span {
+      color: #ccc;
+      font-size: 16px;
+    }
+
+    .footer-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .footer-column {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-column a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+
+    .footer-column a:hover {
+      color: #00adee;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      color: #aaa;
+      font-size: 14px;
+      border-top: 1px solid #333;
+      padding-top: 20px;
+    }
