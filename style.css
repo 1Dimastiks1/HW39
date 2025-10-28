@@ -124,14 +124,14 @@ height: 40px;
   line-height: 100%;
   color: #fff;
   margin-bottom: 46px;
-
+margin-left: 370px;
 }
 
 
 .for_you-list {
   display: flex;
   gap: 30px;
-
+margin-left: 370px;
 }
 
 
