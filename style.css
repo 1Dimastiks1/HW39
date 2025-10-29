@@ -4,14 +4,13 @@ main {
 
 .box-sony {
   background-color: #000;
-height: 40px;
+  height: 40px;
 }
 
 .sony {
   width: 99px;
   height: 18px;
   margin-left: auto;
-
 }
 
 .header-container {
@@ -23,6 +22,18 @@ height: 40px;
 .header-logo {
   width: 56px;
   height: 43px;
+}
+.header-navigation {
+  width: 100%;
+  display: none;
+
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
+}
+
+.header-elemen {
+  margin-left: 300px;
 }
 
 .header-list {
@@ -58,13 +69,13 @@ height: 40px;
   background: #000;
 }
 .header-sing-in {
-  margin-top: 11px;
-  margin-left: auto;
+
+
 }
 
 /* top */
 .top {
-  background: url(./img/teste\ 1.png);
+  background: url(./img/bg.webp);
 
   padding-top: 482px;
   padding-bottom: 91px;
@@ -116,7 +127,6 @@ height: 40px;
   margin-bottom: 147px;
 }
 
-
 .for_you-title {
   font-family: var(--third-family);
   font-weight: 400;
@@ -124,16 +134,19 @@ height: 40px;
   line-height: 100%;
   color: #fff;
   margin-bottom: 46px;
-margin-left: 370px;
 }
-
 
 .for_you-list {
   display: flex;
   gap: 30px;
-margin-left: 370px;
+  flex-wrap: wrap;
+
 }
 
+.for_you-element {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .card {
   background: #1f1f1f;
@@ -149,7 +162,6 @@ margin-left: 370px;
   width: 300px;
   height: 300px;
 }
-
 
 /* playstation-plus */
 .playstation-plus-img {
@@ -211,4 +223,24 @@ footer {
   font-size: 14px;
   border-top: 1px solid #333;
   padding-top: 20px;
+}
+
+/* menu */
+
+.menu {
+  margin-left: auto;
+
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}
+
+.menu-img {
+  fill: #000;
+  width: 56px;
+  height: 43px;
+
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 }
