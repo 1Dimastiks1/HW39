@@ -61,16 +61,14 @@ main {
   font-size: 20px;
   line-height: 100%;
   color: #fff;
+;
 }
 .header-button {
   border-radius: 20px;
   width: 186px;
   height: 26px;
   background: #000;
-}
-.header-sing-in {
-
-
+    text-align: center
 }
 
 /* top */
